@@ -1,0 +1,15 @@
+{
+  "name": "swarm-quarry-host",
+  "version": "1.0.0",
+  "description": "A host for a ComputerCraft swarm quarry",
+  "main": "swarmhost.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "apemanzilla",
+  "license": "GPL-2.0",
+  "dependencies": {
+    "express": "^4.13.3",
+    "jsonfile": "^2.2.3"
+  }
+}
