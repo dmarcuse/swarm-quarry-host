@@ -8,7 +8,7 @@
 // 2 - high logging - log almost everything
 // 3 - max logging - log everything
 // default: 1
-var logging = 3;
+var logging = 1;
 
 // Authentication
 // Since this is stored in plain text, do not use a password you use elsewhere - this is
