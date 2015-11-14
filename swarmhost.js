@@ -288,5 +288,5 @@ var server = app.listen(port, function() {
     var host = server.address().address;
     var port = server.address().port;
 
-    if (logging >= 1) console.log('Running swarm quarry host at http://%s:%s', host, port);
+    if (logging >= 1) console.log('Running swarm quarry host at port %s', port);
 });
