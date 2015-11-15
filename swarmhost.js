@@ -138,8 +138,8 @@ handlers.swarmcommand = function(req, res) {
                 temp.ip = ip;
                 // generate shaft list
                 temp.shafts = [];
-                for (var i = 0; i <= req.query.w; i++) {
-                    for (var j = 0; j <= req.query.h; j++) {
+                for (var i = 0; i < req.query.w; i++) {
+                    for (var j = 0; j < req.query.h; j++) {
                         if (((i % 5) * 2 + j) % 5 == 0) temp.shafts.push({
                             x: i,
                             z: j
